@@ -1,24 +1,16 @@
 ## Hi I'm Daniel 👋 ![](https://komarev.com/ghpvc/?username=McTeaCup&style=for-the-badge)
-I'm a DevOps Engineer who loves to optimize and automate development for everyone.
+I'm a DevOps Engineer who loves to optimize and automate development for everyone. Previously I studied game development where I focused more on tools and found interest in backend engineering, soon enough I found out about DevOps and realized that it felt more like home. And from that point forward I've kept going.
 
-[![McTeaCup's GitHub stats](https://github-readme-stats.vercel.app/api?username=McTeaCup&show_icons=true&theme=dark)](https://github.com/anuraghazra/github-readme-stats) 
-
-**McTeaCup/McTeaCup** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=McTeaCup&show_icons=true&rank_icon=github&theme=github_dark_dimmed)
 
 ## Experiance
+![My Skills](https://skillicons.dev/icons?i=grafana,docker,terraform,ansible,prometheus,kubernetes,azure,git,gitlab,github,cs,python,md,bash&theme=dark)
 
-#### Tools            
-![My Skills](https://skillicons.dev/icons?i=grafana,docker,terraform,ansible,prometheus,kubernetes&theme=dark)
-
-#### Cloud platforms
-![My Skills](https://skillicons.dev/icons?i=azure,git,gitlab,github&theme=dark)
-
-#### Code
-![My Skills](https://skillicons.dev/icons?i=cs,python,md,bash&theme=dark)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=McTeaCup&bg_color="000000")
 
 ## Current activities
 - 🌱 I’m currently learning K8s and other DevOps solutions
-- 🔭 I’m currently working on ...
+
 
 
 <!--
@@ -30,4 +22,5 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
+- 🔭 I’m currently working on 
 -->
