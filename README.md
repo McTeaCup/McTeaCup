@@ -14,7 +14,7 @@ I'm a DevOps Engineer who loves to optimize and automate development for everyon
 ![My Skills](https://skillicons.dev/icons?i=azure,git,gitlab,github&theme=dark)
 
 #### Code
-![My Skills](https://skillicons.dev/icons?i=cs,python,md&theme=dark)
+![My Skills](https://skillicons.dev/icons?i=cs,python,md,bash&theme=dark)
 
 ## Current activities
 - 🌱 I’m currently learning K8s and other DevOps solutions
