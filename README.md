@@ -4,12 +4,12 @@ I'm a DevOps Engineer who loves to optimize and automate development for everyon
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=McTeaCup&show_icons=true&rank_icon=github&theme=github_dark_dimmed)
 
 ## Experiance
-![My Skills](https://skillicons.dev/icons?i=grafana,docker,terraform,ansible,prometheus,kubernetes,azure,git,gitlab,github,cs,python,md,bash&theme=dark)
+![My Skills](https://skillicons.dev/icons?i=grafana,docker,terraform,ansible,prometheus,kubernetes,azure,git,gitlab,github,cs,python,md,bash,k8s&theme=dark)
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=McTeaCup&bg_color="000000")
 
 ## Current activities
-- 🌱 I’m currently learning K8s and other DevOps solutions
+- 🌱 I’m currently learning about GCP
 
 
 
