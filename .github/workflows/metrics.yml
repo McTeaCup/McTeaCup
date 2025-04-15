@@ -16,13 +16,13 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          filename: metrics.base.svg
+          filename: img/metrics.base.svg
           base: header, activity, community, repositories, metadata
           token: ${{ secrets.METRICS_SECRET }}
       
       - uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.activity.svg
+          filename: img/metrics.plugin.activity.svg
           token: ${{ secrets.METRICS_SECRET }}
           base: ""
           plugin_activity: yes
@@ -32,7 +32,7 @@ jobs:
 
       - uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.16personalities.svg
+          filename: img/metrics.plugin.16personalities.svg
           token: ${{ secrets.METRICS_SECRET }}
           base: ""
           plugin_16personalities: yes
