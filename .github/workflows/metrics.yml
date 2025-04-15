@@ -49,7 +49,7 @@ jobs:
 
       - uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.topics.svg
+          filename: img/metrics.plugin.topics.svg
           token: NOT_NEEDED
           base: ""
           plugin_topics: yes
