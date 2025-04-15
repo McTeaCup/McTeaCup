@@ -1,0 +1,40 @@
+name: Metrics
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  push:
+    branches:
+      - "main"
+      - "master"
+jobs:
+  github-metrics:
+    runs-on: ubunut-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.base.svg
+          base: header, activity, community, repositories, metadata
+          token: ${{ secrets.METRICS_SECRET }}
+      
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.activity.svg
+          token: ${{ secrets.METRICS_SECRET }}
+          base: ""
+          plugin_activity: yes
+          plugin_activity_limit: 5
+          plugin_activity_days: 7
+          plugin_activity_filter: issue, pr, release 
+
+      - uses: lowlighter/metrics@latest
+          with:
+            filename: metrics.plugin.16personalities.svg
+            token: ${{ secrets.METRICS_SECRET }}
+            base: ""
+            plugin_16personalities: yes
+            plugin_16personalities_url: ${{ secrets.PERSONALITY_SECRET }}
+            plugin_16personalities_sections: personality, traits
+            plugin_16personalities_scores: no
