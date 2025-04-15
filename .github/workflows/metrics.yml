@@ -52,6 +52,5 @@ jobs:
           filename: img/metrics.plugin.topics.icons.svg
           base: ""
           plugin_topics: yes
-          plugin_topics_limit: 0
           plugin_topics_mode: icons
           token: ${{ secrets.METRICS_SECRET }}
