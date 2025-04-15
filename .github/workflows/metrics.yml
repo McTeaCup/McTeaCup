@@ -31,11 +31,11 @@ jobs:
           plugin_activity_filter: issue, pr, release 
 
       - uses: lowlighter/metrics@latest
-          with:
-            filename: metrics.plugin.16personalities.svg
-            token: ${{ secrets.METRICS_SECRET }}
-            base: ""
-            plugin_16personalities: yes
-            plugin_16personalities_url: ${{ secrets.PERSONALITY_SECRET }}
-            plugin_16personalities_sections: personality, traits
-            plugin_16personalities_scores: no
+        with:
+          filename: metrics.plugin.16personalities.svg
+          token: ${{ secrets.METRICS_SECRET }}
+          base: ""
+          plugin_16personalities: yes
+          plugin_16personalities_url: ${{ secrets.PERSONALITY_SECRET }}
+          plugin_16personalities_sections: personality, traits
+          plugin_16personalities_scores: no
